@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <label for="firstname">voornaam </label>
+      <input
+        type="text"
+        placeholder="voornaam"
+        id="firstname"
+        name="firstname"
+        required
+      />
+      <div>
+        <label for="surname">achternaam </label>
+        <input
+          type="text"
+          placeholder="achternaam"
+          id="surname"
+          name="surname "
+          required
+        />
+      </div>
+
+      <div>
+        <label for="gender">geslacht</label>
+
+        <div>
+          <label for="">Vrouw</label>
+          <input type="radio" name="gender" id="gender" value="vrouw" required />
+          <label for="">Man</label>
+          <input type="radio" id="gender" name="gender" value="man" required />
+        </div>
+      </div>
+      <div>
+<label for="street">straat</label>
+<input type="text" placeholder="straat" id="street" name="street" required> <label for="house number">huisnummer</label>
+<input type="number" placeholder="huisnummer" id="housenumber" name="housenumber" required>
+<br>
+<label for="state">stad</label>
+<input type="text" placeholder="stad" id="state" name="state" required>
+<div>
+  <label for="BSN ">BSN</label>
+  <input type="text2" placeholder="BSN" id="BSN" name="BSN" required minlength="9" maxlength="9"> 
+
+  <div>
+
+<br>
+<label for="holiday countries">vakantie landen </label>
+<select name="holiday countries" id="holiday countries">
+<option value="spain">spanje</option>
+<option value="frankrijk">frankrijk</option>
+<option value="england">england</option>
+<option value="duitsland">duitsland</option>
+<option value="italie">italie</option>
+</select>
+</div>
+ <label for="Date ">Datum </label>
+ <input type="date" id="Date" name="Date" min="2022-09-22" required>
+
+ <label for="Date2 ">Datum </label>
+ <input type="date" id="Date2" name="Date2" min="2022-09-22" required>
+ <div>
+<label for=" Number travel companions">aantal reisgenoten</label>
+<input type="number" id=" Number travel companions" name=" Number travel companions" min="1" max="4" required>
+<br>
+<label for="email">email</label >
+  <input type="text" id="email" name="email" placeholder="uw mail" required>
+  <label for="password">wachtwoord</label>
+  <input type="password" id="password" name="password" placeholder="uw wachtwoord" required >
+
+
+ </div>
+
+
+  <button type="submit">boek nu</button>
+</div>
+      </div>
+
+    </form>
+  </body>
+</html>
