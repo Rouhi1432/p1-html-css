@@ -9,7 +9,9 @@ html {
 body {
   font-family: "Goldman", cursive;
   background-color: black;
+  color: white;
 }
+
 
 nav {
   display: flex;
@@ -21,7 +23,7 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
-  position: sticky;
+  position: fixed;
   top: 0;
 }
 nav ul {
@@ -65,16 +67,12 @@ header {
   margin-bottom: 10rem;
 }
 
-p {
-  color: white;
-}
 
-h1 {
-  color: white;
-}
+
+
 
 h2 {
-  color: white;
+
   text-align: center;
   font-size: xx-large;
 }
@@ -84,14 +82,17 @@ h2 {
   padding-right: 50px;
   font-size: medium;
   padding-bottom: 50px;
+
 }
 
 footer {
   background-color: black;
+  position: absolute;
+  width: 100%;
 }
 
 .container3 {
-  text-align: left;
+  text-align: right;
   font-size: medium;
   padding-left: 40px;
   padding-top: 40px;
@@ -102,14 +103,14 @@ footer {
 }
 
 .container4 {
-  text-align: right;
+  text-align: left;
   padding-right: 50px;
   font-size: medium;
   padding-bottom: 50px;
 }
 
-.container5 {
-  text-align: left;
+.container5 { 
+  text-align: right;
   padding-left: 50px;
   font-size: medium;
   padding-bottom: 50px;
@@ -127,4 +128,10 @@ footer {
 .photo2 {
   margin-left: 800px;
   margin-bottom: 200px;
+}
+.container1 { text-align: center;
+
+}
+section {
+  height: 100vh;
 }

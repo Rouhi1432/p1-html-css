@@ -1,0 +1,11 @@
+{
+  "folders": [
+	{
+		"name": "p1-html-css",
+		"path": ".."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "p1-html-css"
+  }
+}
