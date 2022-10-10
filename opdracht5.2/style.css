@@ -159,7 +159,8 @@ li a {
   text-align: left;
 }
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: flex;
+  flex-direction: column;
 }
 
 .dropdown a:hover  {
