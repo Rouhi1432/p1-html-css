@@ -1,0 +1,30 @@
+.sec1{
+    width: 100vw;
+display:flex;
+flex-direction: row-reverse;    
+
+justify-content: space-around;
+}
+
+.blauw {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+.zwart{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+.rood{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+
+}
+.groen{
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
