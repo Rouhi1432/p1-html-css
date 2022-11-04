@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    height: 100vh;
+}
+.content1{
+    height: 30vh;
+    background-color: yellow;
+}
+.content2{
+    height: 30vh;
+background-color: orange;
+}
+.content3{
+    height: 30vh;
+    background-color: green;
+}
+.nav{
+    background-color: red;
+}
